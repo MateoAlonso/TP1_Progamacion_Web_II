@@ -1,0 +1,43 @@
+.fondo{
+    background-color: black;
+}
+#fa{
+    background-color:rgba(28, 82, 162);
+}
+#fp{
+    background-image: url(../img/pepsi-logo-3840x2160.png);
+    
+}
+.fpi{
+    background-position-x: 60%;
+    background-position-y: 20%;
+    
+}
+.fpc{
+    background-position-x: 30%;
+    background-position-y: 60%;
+}
+.margenftfb{
+    padding-top: 2.500em;
+    padding-bottom: 6.250em;
+}
+.fondotexto{
+    background-image: url(../img/paint-splatter-orange.png);
+    background-position-x: 50%;
+    background-position-y: 50%;
+}
+#fg{
+    background-color:rgba(201, 0, 44);
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.fuenteb{
+    font-weight: bold;
+}
+.barrahorizontalno{
+    overflow-x: hidden;
+}
+.textomobile{
+    text-decoration: underline;
+}
