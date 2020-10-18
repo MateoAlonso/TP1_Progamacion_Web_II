@@ -60,11 +60,41 @@
                         $index=1;
                         echo $array[$index]["nombre"];
                     ?>
-            
                 </h3>
-                <img class="img-fluid rounded" src="https://via.placeholder.com/100" width="100" height="100" alt="placeholder">
-                <h3 class="h4 text-center text-light mt-3">precio: $0000</h3>
-                <h3 class="h4 text-center text-light mt-3">Lorem ipsum dolor, sit amet.</h3>
+                <img class="img-fluid rounded" src=<?php echo $array[$index]["imagensrc"]; ?> width="100" height="100" alt="placeholder">
+                <h3 class="h4 text-center text-light mt-3">
+                    <?php
+                        echo "Precio: $".$array[$index]["precio"];
+                    ?> 
+                </h3>
+                <h3 class="h4 text-center text-light mt-3">
+                    <?php
+                        echo substr($array[$index]["descripcion"],0,20);
+                    ?>
+                </h3>
+                <a href="html/contacto.html" class="h5">Detalles</a>
+            </div>
+
+
+            <!-- Nuevo producto -->
+            <div class="col-xl-3 col12 text-center">
+                <h3 class="text-center text-light mt-3">
+                    <?php
+                        $index++;
+                        echo $array[$index]["marca"];
+                    ?>
+                </h3>
+                <img class="img-fluid rounded" src=<?php echo $array[$index]["imagensrc"]; ?> width="100" height="100" alt="placeholder">
+                <h3 class="h4 text-center text-light mt-3">
+                    <?php
+                        echo "Precio: $".$array[$index]["precio"];
+                    ?>
+                </h3>
+                <h3 class="h4 text-center text-light mt-3">
+                    <?php
+                        echo substr($array[$index]["descripcion"],0,20);
+                    ?>
+                </h3>
                 <a href="html/contacto.html" class="h5">Detalles</a>
             </div>
 
@@ -73,12 +103,20 @@
                 <h3 class="text-center text-light mt-3">
                     <?php
                         $index++;
-                        echo $array[$index]["nombre"];
+                        echo $array[$index]["marca"];
                     ?>
                 </h3>
-                <img class="img-fluid rounded" src="https://via.placeholder.com/100" width="100" height="100" alt="placeholder">
-                <h3 class="h4 text-center text-light mt-3">precio: $0000</h3>
-                <h3 class="h4 text-center text-light mt-3">Lorem ipsum dolor, sit amet.</h3>
+                <img class="img-fluid rounded" src=<?php echo $array[$index]["imagensrc"]; ?> width="100" height="100" alt="placeholder">
+                <h3 class="h4 text-center text-light mt-3">
+                    <?php
+                        echo "Precio: $".$array[$index]["precio"];
+                    ?>
+                </h3>
+                <h3 class="h4 text-center text-light mt-3">
+                    <?php
+                        echo substr($array[$index]["descripcion"],0,20);
+                    ?>
+                </h3>
                 <a href="html/contacto.html" class="h5">Detalles</a>
             </div>
 
@@ -87,12 +125,20 @@
                 <h3 class="text-center text-light mt-3">
                     <?php
                         $index++;
-                        echo $array[$index]["nombre"];
+                        echo $array[$index]["marca"];
                     ?>
                 </h3>
-                <img class="img-fluid rounded" src="https://via.placeholder.com/100" width="100" height="100" alt="placeholder">
-                <h3 class="h4 text-center text-light mt-3">precio: $0000</h3>
-                <h3 class="h4 text-center text-light mt-3">Lorem ipsum dolor, sit amet.</h3>
+                <img class="img-fluid rounded" src=<?php echo $array[$index]["imagensrc"]; ?> width="100" height="100" alt="placeholder">
+                <h3 class="h4 text-center text-light mt-3">
+                    <?php
+                        echo "Precio: $".$array[$index]["precio"];
+                    ?>
+                </h3>
+                <h3 class="h4 text-center text-light mt-3">
+                    <?php
+                        echo substr($array[$index]["descripcion"],0,20);
+                    ?>
+                </h3>
                 <a href="html/contacto.html" class="h5">Detalles</a>
             </div>
 
@@ -101,12 +147,20 @@
                 <h3 class="text-center text-light mt-3">
                     <?php
                         $index++;
-                        echo $array[$index]["nombre"];
+                        echo $array[$index]["marca"];
                     ?>
                 </h3>
-                <img class="img-fluid rounded" src="https://via.placeholder.com/100" width="100" height="100" alt="placeholder">
-                <h3 class="h4 text-center text-light mt-3">precio: $0000</h3>
-                <h3 class="h4 text-center text-light mt-3">Lorem ipsum dolor, sit amet.</h3>
+                <img class="img-fluid rounded" src=<?php echo $array[$index]["imagensrc"]; ?> width="100" height="100" alt="placeholder">
+                <h3 class="h4 text-center text-light mt-3">
+                    <?php
+                        echo "Precio: $".$array[$index]["precio"];
+                    ?>
+                </h3>
+                <h3 class="h4 text-center text-light mt-3">
+                    <?php
+                        echo substr($array[$index]["descripcion"],0,20);
+                    ?>
+                </h3>
                 <a href="html/contacto.html" class="h5">Detalles</a>
             </div>
 
@@ -115,12 +169,20 @@
                 <h3 class="text-center text-light mt-3">
                     <?php
                         $index++;
-                        echo $array[$index]["nombre"];
+                        echo $array[$index]["marca"];
                     ?>
                 </h3>
-                <img class="img-fluid rounded" src="https://via.placeholder.com/100" width="100" height="100" alt="placeholder">
-                <h3 class="h4 text-center text-light mt-3">precio: $0000</h3>
-                <h3 class="h4 text-center text-light mt-3">Lorem ipsum dolor, sit amet.</h3>
+                <img class="img-fluid rounded" src=<?php echo $array[$index]["imagensrc"]; ?> width="100" height="100" alt="placeholder">
+                <h3 class="h4 text-center text-light mt-3">
+                    <?php
+                        echo "Precio: $".$array[$index]["precio"];
+                    ?>
+                </h3>
+                <h3 class="h4 text-center text-light mt-3">
+                    <?php
+                        echo substr($array[$index]["descripcion"],0,20);
+                    ?>
+                </h3>
                 <a href="html/contacto.html" class="h5">Detalles</a>
             </div>
 
@@ -129,12 +191,20 @@
                 <h3 class="text-center text-light mt-3">
                     <?php
                         $index++;
-                        echo $array[$index]["nombre"];
+                        echo $array[$index]["marca"];
                     ?>
                 </h3>
-                <img class="img-fluid rounded" src="https://via.placeholder.com/100" width="100" height="100" alt="placeholder">
-                <h3 class="h4 text-center text-light mt-3">precio: $0000</h3>
-                <h3 class="h4 text-center text-light mt-3">Lorem ipsum dolor, sit amet.</h3>
+                <img class="img-fluid rounded" src=<?php echo $array[$index]["imagensrc"]; ?> width="100" height="100" alt="placeholder">
+                <h3 class="h4 text-center text-light mt-3">
+                    <?php
+                        echo "Precio: $".$array[$index]["precio"];
+                    ?>
+                </h3>
+                <h3 class="h4 text-center text-light mt-3">
+                    <?php
+                        echo substr($array[$index]["descripcion"],0,20);
+                    ?>
+                </h3>
                 <a href="html/contacto.html" class="h5">Detalles</a>
             </div>
 
@@ -143,12 +213,20 @@
                 <h3 class="text-center text-light mt-3">
                     <?php
                         $index++;
-                        echo $array[$index]["nombre"];
+                        echo $array[$index]["marca"];
                     ?>
                 </h3>
-                <img class="img-fluid rounded" src="https://via.placeholder.com/100" width="100" height="100" alt="placeholder">
-                <h3 class="h4 text-center text-light mt-3">precio: $0000</h3>
-                <h3 class="h4 text-center text-light mt-3">Lorem ipsum dolor, sit amet.</h3>
+                <img class="img-fluid rounded" src=<?php echo $array[$index]["imagensrc"]; ?> width="100" height="100" alt="placeholder">
+                <h3 class="h4 text-center text-light mt-3">
+                    <?php
+                        echo "Precio: $".$array[$index]["precio"];
+                    ?>
+                </h3>
+                <h3 class="h4 text-center text-light mt-3">
+                    <?php
+                        echo substr($array[$index]["descripcion"],0,20);
+                    ?>
+                </h3>
                 <a href="html/contacto.html" class="h5">Detalles</a>
             </div>
 
@@ -157,12 +235,20 @@
                 <h3 class="text-center text-light mt-3">
                     <?php
                         $index++;
-                        echo $array[$index]["nombre"];
+                        echo $array[$index]["marca"];
                     ?>
                 </h3>
-                <img class="img-fluid rounded" src="https://via.placeholder.com/100" width="100" height="100" alt="placeholder">
-                <h3 class="h4 text-center text-light mt-3">precio: $0000</h3>
-                <h3 class="h4 text-center text-light mt-3">Lorem ipsum dolor, sit amet.</h3>
+                <img class="img-fluid rounded" src=<?php echo $array[$index]["imagensrc"]; ?> width="100" height="100" alt="placeholder">
+                <h3 class="h4 text-center text-light mt-3">
+                    <?php
+                        echo "Precio: $".$array[$index]["precio"];
+                    ?>
+                </h3>
+                <h3 class="h4 text-center text-light mt-3">
+                    <?php
+                        echo substr($array[$index]["descripcion"],0,20);
+                    ?>
+                </h3>
                 <a href="html/contacto.html" class="h5">Detalles</a>
             </div>
 
@@ -171,12 +257,20 @@
                 <h3 class="text-center text-light mt-3">
                     <?php
                         $index++;
-                        echo $array[$index]["nombre"];
+                        echo $array[$index]["marca"];
                     ?>
                 </h3>
                 <img class="img-fluid rounded" src="https://via.placeholder.com/100" width="100" height="100" alt="placeholder">
-                <h3 class="h4 text-center text-light mt-3">precio: $0000</h3>
-                <h3 class="h4 text-center text-light mt-3">Lorem ipsum dolor, sit amet.</h3>
+                <h3 class="h4 text-center text-light mt-3">
+                    <?php
+                        echo "Precio: $".$array[$index]["precio"];
+                    ?>
+                </h3>
+                <h3 class="h4 text-center text-light mt-3">
+                    <?php
+                        echo substr($array[$index]["descripcion"],0,20);
+                    ?>
+                </h3>
                 <a href="html/contacto.html" class="h5">Detalles</a>
             </div>
 
@@ -185,12 +279,20 @@
                 <h3 class="text-center text-light mt-3">
                     <?php
                         $index++;
-                        echo $array[$index]["nombre"];
+                        echo $array[$index]["marca"];
                     ?>
                 </h3>
-                <img class="img-fluid rounded" src="https://via.placeholder.com/100" width="100" height="100" alt="placeholder">
-                <h3 class="h4 text-center text-light mt-3">precio: $0000</h3>
-                <h3 class="h4 text-center text-light mt-3">Lorem ipsum dolor, sit amet.</h3>
+                <img class="img-fluid rounded" src=<?php echo $array[$index]["imagensrc"]; ?> width="100" height="100" alt="placeholder">
+                <h3 class="h4 text-center text-light mt-3">
+                    <?php
+                        echo "Precio: $".$array[$index]["precio"];
+                    ?>
+                </h3>
+                <h3 class="h4 text-center text-light mt-3">
+                    <?php
+                        echo substr($array[$index]["descripcion"],0,20);
+                    ?>
+                </h3>
                 <a href="html/contacto.html" class="h5">Detalles</a>
             </div>
 
@@ -199,12 +301,20 @@
                 <h3 class="text-center text-light mt-3">
                     <?php
                         $index++;
-                        echo $array[$index]["nombre"];
+                        echo $array[$index]["marca"];
                     ?>
                 </h3>
-                <img class="img-fluid rounded" src="https://via.placeholder.com/100" width="100" height="100" alt="placeholder">
-                <h3 class="h4 text-center text-light mt-3">precio: $0000</h3>
-                <h3 class="h4 text-center text-light mt-3">Lorem ipsum dolor, sit amet.</h3>
+                <img class="img-fluid rounded" src=<?php echo $array[$index]["imagensrc"]; ?> width="100" height="100" alt="placeholder">
+                <h3 class="h4 text-center text-light mt-3">
+                    <?php
+                        echo "Precio: $".$array[$index]["precio"];
+                    ?>
+                </h3>
+                <h3 class="h4 text-center text-light mt-3">
+                    <?php
+                        echo substr($array[$index]["descripcion"],0,20);
+                    ?>
+                </h3>
                 <a href="html/contacto.html" class="h5">Detalles</a>
             </div>
 
@@ -213,12 +323,20 @@
                 <h3 class="text-center text-light mt-3">
                     <?php
                         $index++;
-                        echo $array[$index]["nombre"];
+                        echo $array[$index]["marca"];
                     ?>
                 </h3>
-                <img class="img-fluid rounded" src="https://via.placeholder.com/100" width="100" height="100" alt="placeholder">
-                <h3 class="h4 text-center text-light mt-3">precio: $0000</h3>
-                <h3 class="h4 text-center text-light mt-3">Lorem ipsum dolor, sit amet.</h3>
+                <img class="img-fluid rounded" src=<?php echo $array[$index]["imagensrc"]; ?> width="100" height="100" alt="placeholder">
+                <h3 class="h4 text-center text-light mt-3">
+                    <?php
+                        echo "Precio: $".$array[$index]["precio"];
+                    ?>
+                </h3>
+                <h3 class="h4 text-center text-light mt-3">
+                    <?php
+                        echo substr($array[$index]["descripcion"],0,20);
+                    ?>
+                </h3>
                 <a href="html/contacto.html" class="h5">Detalles</a>
             </div>
 
@@ -227,12 +345,20 @@
                 <h3 class="text-center text-light mt-3">
                     <?php
                         $index++;
-                        echo $array[$index]["nombre"];
+                        echo $array[$index]["marca"];
                     ?>
                 </h3>
-                <img class="img-fluid rounded" src="https://via.placeholder.com/100" width="100" height="100" alt="placeholder">
-                <h3 class="h4 text-center text-light mt-3">precio: $0000</h3>
-                <h3 class="h4 text-center text-light mt-3">Lorem ipsum dolor, sit amet.</h3>
+                <img class="img-fluid rounded" src=<?php echo $array[$index]["imagensrc"]; ?> width="100" height="100" alt="placeholder">
+                <h3 class="h4 text-center text-light mt-3">
+                    <?php
+                        echo "Precio: $".$array[$index]["precio"];
+                    ?>
+                </h3>
+                <h3 class="h4 text-center text-light mt-3">
+                    <?php
+                        echo substr($array[$index]["descripcion"],0,20);
+                    ?>
+                </h3>
                 <a href="html/contacto.html" class="h5">Detalles</a>
             </div>
 
@@ -241,12 +367,20 @@
                 <h3 class="text-center text-light mt-3">
                     <?php
                         $index++;
-                        echo $array[$index]["nombre"];
+                        echo $array[$index]["marca"];
                     ?>
                 </h3>
-                <img class="img-fluid rounded" src="https://via.placeholder.com/100" width="100" height="100" alt="placeholder">
-                <h3 class="h4 text-center text-light mt-3">precio: $0000</h3>
-                <h3 class="h4 text-center text-light mt-3">Lorem ipsum dolor, sit amet.</h3>
+                <img class="img-fluid rounded" src=<?php echo $array[$index]["imagensrc"]; ?> width="100" height="100" alt="placeholder">
+                <h3 class="h4 text-center text-light mt-3">
+                    <?php
+                        echo "Precio: $".$array[$index]["precio"];
+                    ?>
+                </h3>
+                <h3 class="h4 text-center text-light mt-3">
+                    <?php
+                        echo substr($array[$index]["descripcion"],0,20);
+                    ?>
+                </h3>
                 <a href="html/contacto.html" class="h5">Detalles</a>
             </div>
 
@@ -255,12 +389,20 @@
                 <h3 class="text-center text-light mt-3">
                     <?php
                         $index++;
-                        echo $array[$index]["nombre"];
+                        echo $array[$index]["marca"];
                     ?>
                 </h3>
-                <img class="img-fluid rounded" src="https://via.placeholder.com/100" width="100" height="100" alt="placeholder">
-                <h3 class="h4 text-center text-light mt-3">precio: $0000</h3>
-                <h3 class="h4 text-center text-light mt-3">Lorem ipsum dolor, sit amet.</h3>
+                <img class="img-fluid rounded" src=<?php echo $array[$index]["imagensrc"]; ?> width="100" height="100" alt="placeholder">
+                <h3 class="h4 text-center text-light mt-3">
+                    <?php
+                        echo "Precio: $".$array[$index]["precio"];
+                    ?>
+                </h3>
+                <h3 class="h4 text-center text-light mt-3">
+                    <?php
+                        echo substr($array[$index]["descripcion"],0,20);
+                    ?>
+                </h3>
                 <a href="html/contacto.html" class="h5">Detalles</a>
             </div>
 
@@ -269,12 +411,20 @@
                 <h3 class="text-center text-light mt-3">
                     <?php
                         $index++;
-                        echo $array[$index]["nombre"];
+                        echo $array[$index]["marca"];
                     ?>
                 </h3>
-                <img class="img-fluid rounded" src="https://via.placeholder.com/100" width="100" height="100" alt="placeholder">
-                <h3 class="h4 text-center text-light mt-3">precio: $0000</h3>
-                <h3 class="h4 text-center text-light mt-3">Lorem ipsum dolor, sit amet.</h3>
+                <img class="img-fluid rounded" src=<?php echo $array[$index]["imagensrc"]; ?> width="100" height="100" alt="placeholder">
+                <h3 class="h4 text-center text-light mt-3">
+                    <?php
+                        echo "Precio: $".$array[$index]["precio"];
+                    ?>
+                </h3>
+                <h3 class="h4 text-center text-light mt-3">
+                    <?php
+                        echo substr($array[$index]["descripcion"],0,20);
+                    ?>
+                </h3>
                 <a href="html/contacto.html" class="h5">Detalles</a>
             </div>
 
@@ -283,12 +433,20 @@
                 <h3 class="text-center text-light mt-3">
                     <?php
                         $index++;
-                        echo $array[$index]["nombre"];
+                        echo $array[$index]["marca"];
                     ?>
                 </h3>
-                <img class="img-fluid rounded" src="https://via.placeholder.com/100" width="100" height="100" alt="placeholder">
-                <h3 class="h4 text-center text-light mt-3">precio: $0000</h3>
-                <h3 class="h4 text-center text-light mt-3">Lorem ipsum dolor, sit amet.</h3>
+                <img class="img-fluid rounded" src=<?php echo $array[$index]["imagensrc"]; ?> width="100" height="100" alt="placeholder">
+                <h3 class="h4 text-center text-light mt-3">
+                    <?php
+                        echo "Precio: $".$array[$index]["precio"];
+                    ?>
+                </h3>
+                <h3 class="h4 text-center text-light mt-3">
+                    <?php
+                        echo substr($array[$index]["descripcion"],0,20);
+                    ?>
+                </h3>
                 <a href="html/contacto.html" class="h5">Detalles</a>
             </div>
 
@@ -297,12 +455,20 @@
                 <h3 class="text-center text-light mt-3">
                     <?php
                         $index++;
-                        echo $array[$index]["nombre"];
+                        echo $array[$index]["marca"];
                     ?>
                 </h3>
-                <img class="img-fluid rounded" src="https://via.placeholder.com/100" width="100" height="100" alt="placeholder">
-                <h3 class="h4 text-center text-light mt-3">precio: $0000</h3>
-                <h3 class="h4 text-center text-light mt-3">Lorem ipsum dolor, sit amet.</h3>
+                <img class="img-fluid rounded" src=<?php echo $array[$index]["imagensrc"]; ?> width="100" height="100" alt="placeholder">
+                <h3 class="h4 text-center text-light mt-3">
+                    <?php
+                        echo "Precio: $".$array[$index]["precio"];
+                    ?>
+                </h3>
+                <h3 class="h4 text-center text-light mt-3">
+                    <?php
+                        echo substr($array[$index]["descripcion"],0,20);
+                    ?>
+                </h3>
                 <a href="html/contacto.html" class="h5">Detalles</a>
             </div>
 
@@ -311,26 +477,20 @@
                 <h3 class="text-center text-light mt-3">
                     <?php
                         $index++;
-                        echo $array[$index]["nombre"];
+                        echo $array[$index]["marca"];
                     ?>
                 </h3>
-                <img class="img-fluid rounded" src="https://via.placeholder.com/100" width="100" height="100" alt="placeholder">
-                <h3 class="h4 text-center text-light mt-3">precio: $0000</h3>
-                <h3 class="h4 text-center text-light mt-3">Lorem ipsum dolor, sit amet.</h3>
-                <a href="html/contacto.html" class="h5">Detalles</a>
-            </div>
-
-            <!-- Nuevo producto -->
-            <div class="col-xl-3 col12 text-center">
-                <h3 class="text-center text-light mt-3">
+                <img class="img-fluid rounded" src=<?php echo $array[$index]["imagensrc"]; ?> width="100" height="100" alt="placeholder">
+                <h3 class="h4 text-center text-light mt-3">
                     <?php
-                        $index++;
-                        echo $array[$index]["nombre"];
+                        echo "Precio: $".$array[$index]["precio"];
                     ?>
                 </h3>
-                <img class="img-fluid rounded" src="https://via.placeholder.com/100" width="100" height="100" alt="placeholder">
-                <h3 class="h4 text-center text-light mt-3">precio: $0000</h3>
-                <h3 class="h4 text-center text-light mt-3">Lorem ipsum dolor, sit amet.</h3>
+                <h3 class="h4 text-center text-light mt-3">
+                    <?php
+                        echo substr($array[$index]["descripcion"],0,20);
+                    ?>
+                </h3>
                 <a href="html/contacto.html" class="h5">Detalles</a>
             </div>
         </section>
