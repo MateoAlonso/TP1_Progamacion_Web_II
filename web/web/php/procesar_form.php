@@ -1,6 +1,6 @@
 <?php
     require_once("functions.php");
-    $form=LeerArrayJson("Json","formulario.json");
+    $form=LeerArrayJson("../Json","formulario.json");
     $index=count($form)+1;
     $form[$index]=
     [
@@ -14,6 +14,6 @@
     
 
 
-    GrabarArrayJson("Json","formulario.json",$form);
-    require_once("../html/contacto.html");
+    GrabarArrayJson("../Json","formulario.json",$form);
+    require_once("contacto.php");
 ?>
