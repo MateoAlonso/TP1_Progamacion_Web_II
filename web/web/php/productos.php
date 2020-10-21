@@ -7,7 +7,7 @@
             "marca"=>"Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
             "modelo"=>"Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
             "id_categoria"=>1,
-            "imagensrc"=>"https://via.placeholder.com/100",
+            "imagensrc"=>"img/reloj_1.jpg",
             "descripcion"=>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non commodo turpis. Mauris sed luctus eros. Morbi vulputate egestas pulvinar. Cras posuere magna at urna tempus, ultrices posuere arcu aliquet. Praesent gravida ac quam sit amet pellentesque. Morbi eu lorem at leo accumsan congue. In et elit ac orci posuere tristique.",
             "precio"=>0000
             
@@ -19,7 +19,7 @@
             "marca"=>"Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
             "modelo"=>"Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
             "id_categoria"=>1,
-            "imagensrc"=>"https://via.placeholder.com/100",
+            "imagensrc"=>"img/reloj_2.jpg",
             "descripcion"=>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non commodo turpis. Mauris sed luctus eros. Morbi vulputate egestas pulvinar. Cras posuere magna at urna tempus, ultrices posuere arcu aliquet. Praesent gravida ac quam sit amet pellentesque. Morbi eu lorem at leo accumsan congue. In et elit ac orci posuere tristique.",
             "precio"=>0000
         ],
@@ -30,7 +30,7 @@
             "marca"=>"Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
             "modelo"=>"Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
             "id_categoria"=>2,
-            "imagensrc"=>"https://via.placeholder.com/100",
+            "imagensrc"=>"img/reloj_3.jpg",
             "descripcion"=>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non commodo turpis. Mauris sed luctus eros. Morbi vulputate egestas pulvinar. Cras posuere magna at urna tempus, ultrices posuere arcu aliquet. Praesent gravida ac quam sit amet pellentesque. Morbi eu lorem at leo accumsan congue. In et elit ac orci posuere tristique.",
             "precio"=>0000
         ],
@@ -41,7 +41,7 @@
             "marca"=>"Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
             "modelo"=>"Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
             "id_categoria"=>4,
-            "imagensrc"=>"https://via.placeholder.com/100",
+            "imagensrc"=>"img/reloj_4.jpg",
             "descripcion"=>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non commodo turpis. Mauris sed luctus eros. Morbi vulputate egestas pulvinar. Cras posuere magna at urna tempus, ultrices posuere arcu aliquet. Praesent gravida ac quam sit amet pellentesque. Morbi eu lorem at leo accumsan congue. In et elit ac orci posuere tristique.",
             "precio"=>0000
         ],
@@ -52,7 +52,7 @@
             "marca"=>"Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
             "modelo"=>"Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
             "id_categoria"=>3,
-            "imagensrc"=>"https://via.placeholder.com/100",
+            "imagensrc"=>"img/reloj_5.jpg",
             "descripcion"=>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non commodo turpis. Mauris sed luctus eros. Morbi vulputate egestas pulvinar. Cras posuere magna at urna tempus, ultrices posuere arcu aliquet. Praesent gravida ac quam sit amet pellentesque. Morbi eu lorem at leo accumsan congue. In et elit ac orci posuere tristique.",
             "precio"=>0000
         ],
@@ -63,7 +63,7 @@
             "marca"=>"Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
             "modelo"=>"Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
             "id_categoria"=>1,
-            "imagensrc"=>"https://via.placeholder.com/100",
+            "imagensrc"=>"img/reloj_6.jpg",
             "descripcion"=>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non commodo turpis. Mauris sed luctus eros. Morbi vulputate egestas pulvinar. Cras posuere magna at urna tempus, ultrices posuere arcu aliquet. Praesent gravida ac quam sit amet pellentesque. Morbi eu lorem at leo accumsan congue. In et elit ac orci posuere tristique.",
             "precio"=>0000
         ],
@@ -74,7 +74,7 @@
             "marca"=>"Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
             "modelo"=>"Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
             "id_categoria"=>1,
-            "imagensrc"=>"https://via.placeholder.com/100",
+            "imagensrc"=>"img/reloj_7.jpg",
             "descripcion"=>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non commodo turpis. Mauris sed luctus eros. Morbi vulputate egestas pulvinar. Cras posuere magna at urna tempus, ultrices posuere arcu aliquet. Praesent gravida ac quam sit amet pellentesque. Morbi eu lorem at leo accumsan congue. In et elit ac orci posuere tristique.",
             "precio"=>0000
         ],
@@ -85,7 +85,7 @@
             "marca"=>"Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
             "modelo"=>"Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
             "id_categoria"=>2,
-            "imagensrc"=>"https://via.placeholder.com/100",
+            "imagensrc"=>"img/reloj_8.jpg",
             "descripcion"=>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non commodo turpis. Mauris sed luctus eros. Morbi vulputate egestas pulvinar. Cras posuere magna at urna tempus, ultrices posuere arcu aliquet. Praesent gravida ac quam sit amet pellentesque. Morbi eu lorem at leo accumsan congue. In et elit ac orci posuere tristique.",
             "precio"=>0000
         ],
@@ -96,7 +96,7 @@
             "marca"=>"Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
             "modelo"=>"Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
             "id_categoria"=>4,
-            "imagensrc"=>"https://via.placeholder.com/100",
+            "imagensrc"=>"img/reloj_9.jpg",
             "descripcion"=>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non commodo turpis. Mauris sed luctus eros. Morbi vulputate egestas pulvinar. Cras posuere magna at urna tempus, ultrices posuere arcu aliquet. Praesent gravida ac quam sit amet pellentesque. Morbi eu lorem at leo accumsan congue. In et elit ac orci posuere tristique.",
             "precio"=>0000
         ],
@@ -107,7 +107,7 @@
             "marca"=>"Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
             "modelo"=>"Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
             "id_categoria"=>3,
-            "imagensrc"=>"https://via.placeholder.com/100",
+            "imagensrc"=>"img/reloj_10.jpg",
             "descripcion"=>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non commodo turpis. Mauris sed luctus eros. Morbi vulputate egestas pulvinar. Cras posuere magna at urna tempus, ultrices posuere arcu aliquet. Praesent gravida ac quam sit amet pellentesque. Morbi eu lorem at leo accumsan congue. In et elit ac orci posuere tristique.",
             "precio"=>0000
         ],
@@ -117,7 +117,7 @@
             "marca"=>"Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
             "modelo"=>"Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
             "id_categoria"=>1,
-            "imagensrc"=>"https://via.placeholder.com/100",
+            "imagensrc"=>"img/reloj_11.jpg",
             "descripcion"=>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non commodo turpis. Mauris sed luctus eros. Morbi vulputate egestas pulvinar. Cras posuere magna at urna tempus, ultrices posuere arcu aliquet. Praesent gravida ac quam sit amet pellentesque. Morbi eu lorem at leo accumsan congue. In et elit ac orci posuere tristique.",
             "precio"=>0000
         ],
@@ -128,7 +128,7 @@
             "marca"=>"Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
             "modelo"=>"Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
             "id_categoria"=>1,
-            "imagensrc"=>"https://via.placeholder.com/100",
+            "imagensrc"=>"img/reloj_12.jpg",
             "descripcion"=>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non commodo turpis. Mauris sed luctus eros. Morbi vulputate egestas pulvinar. Cras posuere magna at urna tempus, ultrices posuere arcu aliquet. Praesent gravida ac quam sit amet pellentesque. Morbi eu lorem at leo accumsan congue. In et elit ac orci posuere tristique.",
             "precio"=>0000
         ],
@@ -139,7 +139,7 @@
             "marca"=>"Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
             "modelo"=>"Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
             "id_categoria"=>2,
-            "imagensrc"=>"https://via.placeholder.com/100",
+            "imagensrc"=>"img/reloj_13.jpg",
             "descripcion"=>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non commodo turpis. Mauris sed luctus eros. Morbi vulputate egestas pulvinar. Cras posuere magna at urna tempus, ultrices posuere arcu aliquet. Praesent gravida ac quam sit amet pellentesque. Morbi eu lorem at leo accumsan congue. In et elit ac orci posuere tristique.",
             "precio"=>0000
         ],
@@ -150,7 +150,7 @@
             "marca"=>"Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
             "modelo"=>"Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
             "id_categoria"=>4,
-            "imagensrc"=>"https://via.placeholder.com/100",
+            "imagensrc"=>"img/reloj_14.jpg",
             "descripcion"=>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non commodo turpis. Mauris sed luctus eros. Morbi vulputate egestas pulvinar. Cras posuere magna at urna tempus, ultrices posuere arcu aliquet. Praesent gravida ac quam sit amet pellentesque. Morbi eu lorem at leo accumsan congue. In et elit ac orci posuere tristique.",
             "precio"=>0000
         ],
@@ -161,7 +161,7 @@
             "marca"=>"Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
             "modelo"=>"Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
             "id_categoria"=>3,
-            "imagensrc"=>"https://via.placeholder.com/100",
+            "imagensrc"=>"img/reloj_15.jpg",
             "descripcion"=>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non commodo turpis. Mauris sed luctus eros. Morbi vulputate egestas pulvinar. Cras posuere magna at urna tempus, ultrices posuere arcu aliquet. Praesent gravida ac quam sit amet pellentesque. Morbi eu lorem at leo accumsan congue. In et elit ac orci posuere tristique.",
             "precio"=>0000
         ],
@@ -172,7 +172,7 @@
             "marca"=>"Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
             "modelo"=>"Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
             "id_categoria"=>1,
-            "imagensrc"=>"https://via.placeholder.com/100",
+            "imagensrc"=>"img/reloj_16.jpg",
             "descripcion"=>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non commodo turpis. Mauris sed luctus eros. Morbi vulputate egestas pulvinar. Cras posuere magna at urna tempus, ultrices posuere arcu aliquet. Praesent gravida ac quam sit amet pellentesque. Morbi eu lorem at leo accumsan congue. In et elit ac orci posuere tristique.",
             "precio"=>0000
         ],
@@ -183,7 +183,7 @@
             "marca"=>"Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
             "modelo"=>"Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
             "id_categoria"=>1,
-            "imagensrc"=>"https://via.placeholder.com/100",
+            "imagensrc"=>"img/reloj_17.jpg",
             "descripcion"=>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non commodo turpis. Mauris sed luctus eros. Morbi vulputate egestas pulvinar. Cras posuere magna at urna tempus, ultrices posuere arcu aliquet. Praesent gravida ac quam sit amet pellentesque. Morbi eu lorem at leo accumsan congue. In et elit ac orci posuere tristique.",
             "precio"=>0000
         ],
@@ -194,7 +194,7 @@
             "marca"=>"Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
             "modelo"=>"Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
             "id_categoria"=>2,
-            "imagensrc"=>"https://via.placeholder.com/100",
+            "imagensrc"=>"img/reloj_18.jpg",
             "descripcion"=>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non commodo turpis. Mauris sed luctus eros. Morbi vulputate egestas pulvinar. Cras posuere magna at urna tempus, ultrices posuere arcu aliquet. Praesent gravida ac quam sit amet pellentesque. Morbi eu lorem at leo accumsan congue. In et elit ac orci posuere tristique.",
             "precio"=>0000
         ],
@@ -205,7 +205,7 @@
             "marca"=>"Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
             "modelo"=>"Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
             "id_categoria"=>4,
-            "imagensrc"=>"https://via.placeholder.com/100",
+            "imagensrc"=>"img/reloj_19.jpg",
             "descripcion"=>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non commodo turpis. Mauris sed luctus eros. Morbi vulputate egestas pulvinar. Cras posuere magna at urna tempus, ultrices posuere arcu aliquet. Praesent gravida ac quam sit amet pellentesque. Morbi eu lorem at leo accumsan congue. In et elit ac orci posuere tristique.",
             "precio"=>0000
         ],
@@ -216,7 +216,7 @@
             "marca"=>"Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
             "modelo"=>"Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
             "id_categoria"=>3,
-            "imagensrc"=>"https://via.placeholder.com/100",
+            "imagensrc"=>"img/reloj_20.jpg",
             "descripcion"=>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non commodo turpis. Mauris sed luctus eros. Morbi vulputate egestas pulvinar. Cras posuere magna at urna tempus, ultrices posuere arcu aliquet. Praesent gravida ac quam sit amet pellentesque. Morbi eu lorem at leo accumsan congue. In et elit ac orci posuere tristique.",
             "precio"=>0000
         ]

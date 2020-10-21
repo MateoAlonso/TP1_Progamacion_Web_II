@@ -23,7 +23,7 @@
             <!-- Logo -->
     
             <a href="index.php" class="navbar-brand ml-2">
-                <img src="https://via.placeholder.com/40" alt="placeholder logo" width="40" height="40" class="img-fluid rounded-circle">
+                <img src="img/rolex-40x40.jpeg" alt="placeholder logo" width="40" height="40" class="img-fluid rounded-circle">
             </a>
     
             <!-- Hamburquesa -->
@@ -46,7 +46,7 @@
         </nav>
 
         <header class="container">
-            <h2 class="h1 text-light text-center my-5 fuenteb">Productos</h2>
+            <h2 class="h1 text-light text-center my-5 fuenteb">Productos: Nuestros relojes</h2>
         </header>
         
         <section class="row justify-content-center">
@@ -263,7 +263,7 @@
                         echo $array[$index]["marca"];
                     ?>
                 </h3>
-                <img class="img-fluid rounded" src="https://via.placeholder.com/100" width="100" height="100" alt="placeholder">
+                <img class="img-fluid rounded" src=<?php echo $array[$index]["imagensrc"]; ?> width="100" height="100" alt="placeholder">
                 <h3 class="h4 text-center text-light mt-3">
                     <?php
                         echo "Precio: $".$array[$index]["precio"];
