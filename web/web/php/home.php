@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Pepsi Music</title>
+    <title>Trabajo WEB II</title>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
@@ -75,7 +75,7 @@
 
                 <!-- Acá tendría que mandar a detalle.php el id del producto que está clickeando en el <a>Detalles pero no se como hacerlo -->
                 <a href="php/detalle.php" class="h5 btn btn-primary">Detalles</a>
-                
+
             </div>
 
 
