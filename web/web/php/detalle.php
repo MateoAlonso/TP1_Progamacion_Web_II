@@ -18,7 +18,6 @@
 <div clsss="product-block">
     <img src="https://via.placeholder.com/200" alt="" width="100">
 </div>
-
 <div class="product-block">
     <h3>reloj 1</h3>
 <div class="product-info">
