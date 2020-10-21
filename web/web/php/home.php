@@ -12,7 +12,7 @@
 <body id="fp" class="margenftfb fpi barrahorizontalno">
     <div class="container-fluid">
         
-        
+        <!-- Acá estoy parado en index.php, no en home.php, por eso hay que linkear las cosas como si estuvieramos en index.php -->
             
         <!-- H1 oculto -->
 
@@ -72,7 +72,10 @@
                         echo substr($array[$index]["descripcion"],0,20);
                     ?>
                 </h3>
-                <a href="html/contacto.html" class="h5">Detalles</a>
+
+                <!-- Acá tendría que mandar a detalle.php el id del producto que está clickeando en el <a>Detalles pero no se como hacerlo -->
+                <a href="php/detalle.php" class="h5 btn btn-primary">Detalles</a>
+                
             </div>
 
 
@@ -95,7 +98,7 @@
                         echo substr($array[$index]["descripcion"],0,20);
                     ?>
                 </h3>
-                <a href="html/contacto.html" class="h5">Detalles</a>
+                <a href="php/detalle.php" class="h5 btn btn-primary">Detalles</a>
             </div>
 
             <!-- Nuevo producto -->
@@ -117,7 +120,7 @@
                         echo substr($array[$index]["descripcion"],0,20);
                     ?>
                 </h3>
-                <a href="html/contacto.html" class="h5">Detalles</a>
+                <a href="php/detalle.php" class="h5 btn btn-primary">Detalles</a>
             </div>
 
             <!-- Nuevo producto -->
@@ -139,7 +142,7 @@
                         echo substr($array[$index]["descripcion"],0,20);
                     ?>
                 </h3>
-                <a href="html/contacto.html" class="h5">Detalles</a>
+                <a href="php/detalle.php" class="h5 btn btn-primary">Detalles</a>
             </div>
 
             <!-- Nuevo producto -->
@@ -161,7 +164,7 @@
                         echo substr($array[$index]["descripcion"],0,20);
                     ?>
                 </h3>
-                <a href="html/contacto.html" class="h5">Detalles</a>
+                <a href="php/detalle.php" class="h5 btn btn-primary">Detalles</a>
             </div>
 
             <!-- Nuevo producto -->
@@ -183,7 +186,7 @@
                         echo substr($array[$index]["descripcion"],0,20);
                     ?>
                 </h3>
-                <a href="html/contacto.html" class="h5">Detalles</a>
+                <a href="php/detalle.php" class="h5 btn btn-primary">Detalles</a>
             </div>
 
             <!-- Nuevo producto -->
@@ -205,7 +208,7 @@
                         echo substr($array[$index]["descripcion"],0,20);
                     ?>
                 </h3>
-                <a href="html/contacto.html" class="h5">Detalles</a>
+                <a href="php/detalle.php" class="h5 btn btn-primary">Detalles</a>
             </div>
 
             <!-- Nuevo producto -->
@@ -227,7 +230,7 @@
                         echo substr($array[$index]["descripcion"],0,20);
                     ?>
                 </h3>
-                <a href="html/contacto.html" class="h5">Detalles</a>
+                <a href="php/detalle.php" class="h5 btn btn-primary">Detalles</a>
             </div>
 
             <!-- Nuevo producto -->
@@ -249,7 +252,7 @@
                         echo substr($array[$index]["descripcion"],0,20);
                     ?>
                 </h3>
-                <a href="html/contacto.html" class="h5">Detalles</a>
+                <a href="php/detalle.php" class="h5 btn btn-primary">Detalles</a>
             </div>
 
             <!-- Nuevo producto -->
@@ -271,7 +274,7 @@
                         echo substr($array[$index]["descripcion"],0,20);
                     ?>
                 </h3>
-                <a href="html/contacto.html" class="h5">Detalles</a>
+                <a href="php/detalle.php" class="h5 btn btn-primary">Detalles</a>
             </div>
 
             <!-- Nuevo producto -->
@@ -293,7 +296,7 @@
                         echo substr($array[$index]["descripcion"],0,20);
                     ?>
                 </h3>
-                <a href="html/contacto.html" class="h5">Detalles</a>
+                <a href="php/detalle.php" class="h5 btn btn-primary">Detalles</a>
             </div>
 
             <!-- Nuevo producto -->
@@ -315,7 +318,7 @@
                         echo substr($array[$index]["descripcion"],0,20);
                     ?>
                 </h3>
-                <a href="html/contacto.html" class="h5">Detalles</a>
+                <a href="php/detalle.php" class="h5 btn btn-primary">Detalles</a>
             </div>
 
             <!-- Nuevo producto -->
@@ -337,7 +340,7 @@
                         echo substr($array[$index]["descripcion"],0,20);
                     ?>
                 </h3>
-                <a href="html/contacto.html" class="h5">Detalles</a>
+                <a href="php/detalle.php" class="h5 btn btn-primary">Detalles</a>
             </div>
 
             <!-- Nuevo producto -->
@@ -359,7 +362,7 @@
                         echo substr($array[$index]["descripcion"],0,20);
                     ?>
                 </h3>
-                <a href="html/contacto.html" class="h5">Detalles</a>
+                <a href="php/detalle.php" class="h5 btn btn-primary">Detalles</a>
             </div>
 
             <!-- Nuevo producto -->
@@ -381,7 +384,7 @@
                         echo substr($array[$index]["descripcion"],0,20);
                     ?>
                 </h3>
-                <a href="html/contacto.html" class="h5">Detalles</a>
+                <a href="php/detalle.php" class="h5 btn btn-primary">Detalles</a>
             </div>
 
             <!-- Nuevo producto -->
@@ -403,7 +406,7 @@
                         echo substr($array[$index]["descripcion"],0,20);
                     ?>
                 </h3>
-                <a href="html/contacto.html" class="h5">Detalles</a>
+                <a href="php/detalle.php" class="h5 btn btn-primary">Detalles</a>
             </div>
 
             <!-- Nuevo producto -->
@@ -425,7 +428,7 @@
                         echo substr($array[$index]["descripcion"],0,20);
                     ?>
                 </h3>
-                <a href="html/contacto.html" class="h5">Detalles</a>
+                <a href="php/detalle.php" class="h5 btn btn-primary">Detalles</a>
             </div>
 
             <!-- Nuevo producto -->
@@ -447,7 +450,7 @@
                         echo substr($array[$index]["descripcion"],0,20);
                     ?>
                 </h3>
-                <a href="html/contacto.html" class="h5">Detalles</a>
+                <a href="php/detalle.php" class="h5 btn btn-primary">Detalles</a>
             </div>
 
             <!-- Nuevo producto -->
@@ -469,7 +472,7 @@
                         echo substr($array[$index]["descripcion"],0,20);
                     ?>
                 </h3>
-                <a href="html/contacto.html" class="h5">Detalles</a>
+                <a href="php/detalle.php" class="h5 btn btn-primary">Detalles</a>
             </div>
 
             <!-- Nuevo producto -->
@@ -491,7 +494,7 @@
                         echo substr($array[$index]["descripcion"],0,20);
                     ?>
                 </h3>
-                <a href="html/contacto.html" class="h5">Detalles</a>
+                <a href="php/detalle.php" class="h5 btn btn-primary">Detalles</a>
             </div>
         </section>
         
@@ -500,7 +503,7 @@
         <section class="containter-fluid bg-dark fixed-bottom">
             <div class="row">
                 <div class="card-footer text-muted col-12">
-                    <h4 class= "h6 text-center mt-1 ml-3">footer texto</h4>
+                    <h4 class= "h6 text-center mt-1 ml-3">Alonso, Mateo | Emanuel Vizcarra | Grupo 4 | Programación Web II | 2do Cuatrimestre 2020</h4>
                 </div>
             </div>
         </section>

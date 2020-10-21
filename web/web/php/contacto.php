@@ -58,6 +58,9 @@
                     <label for="apellidoid" class="fuente">Apellido</label>
                     <input id="apellidoid" type="text" name="apellido" class="form-control mb-3" placeholder="Ingrese su apellido" required>
 
+                    <label for="telid" class="fuente">Teléfono</label>
+                    <input id="telid" type="number" name="tel" class="form-control mb-3" placeholder="Ingrese su teléfono" required>
+
 
                     <label for="correoid" class="fuente">Email</label>
                     <input id="correoid" type="email" name="correo" class="form-control mb-3" placeholder="Ingrese su correo" required>
@@ -107,7 +110,7 @@
         <section class="containter-fluid bg-dark mt-5 fixed-bottom">
             <div class="row">
                 <div class="card-footer text-muted col-12 ">
-                    <h3 class= "h6 text-center mt-1 ml-3">© Pepsi Music • Todos los derechos reservados</h3>
+                    <h3 class= "h6 text-center mt-1 ml-3">Alonso, Mateo | Emanuel Vizcarra | Grupo 4 | Programación Web II | 2do Cuatrimestre 2020</h3>
                 </div>
             </div>
         </section>
