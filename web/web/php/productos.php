@@ -7,7 +7,7 @@
             "marca"=>"rolex",
             "modelo"=>"vintage",
             "id_categoria"=>1,
-            "imagensrc"=>"https://via.placeholder.com/100",
+            "imagensrc"=>"img/reloj_1.jpg",
             "descripcion"=>"Material de la correa: oro, resistente al agua",
           
             "precio"=>30000
@@ -19,7 +19,7 @@
             "marca"=>"rolex",
             "modelo"=>"vintage",
             "id_categoria"=>1,
-            "imagensrc"=>"https://via.placeholder.com/100",
+            "imagensrc"=>"img/reloj_2.jpg",
             "descripcion"=>"Material de la correa: metal, resistente al agua",
           
             "precio"=>15000
@@ -30,7 +30,7 @@
             "marca"=>"rolex",
             "modelo"=>"vintage",
             "id_categoria"=>1,
-            "imagensrc"=>"https://via.placeholder.com/100",
+            "imagensrc"=>"img/reloj_3.jpg",
             "descripcion"=>"Material de la correa: metal, resistente al agua",
           
             "precio"=>14000
@@ -41,7 +41,7 @@
             "marca"=>"rolex",
             "modelo"=>"vintage",
             "id_categoria"=>1,
-            "imagensrc"=>"https://via.placeholder.com/100",
+            "imagensrc"=>"img/reloj_4.jpg",
             "descripcion"=>"Material de la correa: metal platino, resistente al agua",
           
             "precio"=>5000
@@ -52,7 +52,7 @@
             "marca"=>"rolex",
             "modelo"=>"vintage",
             "id_categoria"=>1,
-            "imagensrc"=>"https://via.placeholder.com/100",
+            "imagensrc"=>"img/reloj_5.jpg",
             "descripcion"=>"Material de la correa: metal carbonico, resistente al agua",
           
             "precio"=>32000
@@ -63,7 +63,7 @@
             "marca"=>"rolex",
             "modelo"=>"vintage",
             "id_categoria"=>1,
-            "imagensrc"=>"https://via.placeholder.com/100",
+            "imagensrc"=>"img/reloj_6.jpg",
             "descripcion"=>"Material de la correa: cristal, resistente al agua",
           
             "precio"=>3000
@@ -74,7 +74,7 @@
             "marca"=>"rolex",
             "modelo"=>"vintage",
             "id_categoria"=>1,
-            "imagensrc"=>"https://via.placeholder.com/100",
+            "imagensrc"=>"img/reloj_7.jpg",
             "descripcion"=>"Material de la correa: metal, resistente al agua",
           
             "precio"=>4000
@@ -85,7 +85,7 @@
             "marca"=>"rolex",
             "modelo"=>"vintage",
             "id_categoria"=>1,
-            "imagensrc"=>"https://via.placeholder.com/100",
+            "imagensrc"=>"img/reloj_8.jpg",
             "descripcion"=>"Material de la correa: rubi, resistente al agua",
           
             "precio"=>3000
@@ -96,7 +96,7 @@
             "marca"=>"rolex",
             "modelo"=>"vintage",
             "id_categoria"=>1,
-            "imagensrc"=>"https://via.placeholder.com/100",
+            "imagensrc"=>"img/reloj_9.jpg",
             "descripcion"=>"Material de la correa: metal, resistente al agua",
           
             "precio"=>12000
@@ -107,7 +107,7 @@
             "marca"=>"rolex",
             "modelo"=>"vintage",
             "id_categoria"=>1,
-            "imagensrc"=>"https://via.placeholder.com/100",
+            "imagensrc"=>"img/reloj_10.jpg",
             "descripcion"=>"Material de la correa: metal, resistente al agua",
           
             "precio"=>110000
@@ -118,7 +118,7 @@
             "marca"=>"rolex",
             "modelo"=>"vintage",
             "id_categoria"=>1,
-            "imagensrc"=>"https://via.placeholder.com/100",
+            "imagensrc"=>"img/reloj_11.jpg",
             "descripcion"=>"Material de la correa: metal, resistente al agua",
           
             "precio"=>2000
@@ -129,7 +129,7 @@
             "marca"=>"rolex",
             "modelo"=>"vintage",
             "id_categoria"=>1,
-            "imagensrc"=>"https://via.placeholder.com/100",
+            "imagensrc"=>"img/reloj_12.jpg",
             "descripcion"=>"Material de la correa: metal, resistente al agua",
           
             "precio"=>14000
@@ -140,7 +140,7 @@
             "marca"=>"rolex",
             "modelo"=>"vintage",
             "id_categoria"=>1,
-            "imagensrc"=>"https://via.placeholder.com/100",
+            "imagensrc"=>"img/reloj_13.jpg",
             "descripcion"=>"Material de la correa: metal, resistente al agua",
           
             "precio"=>3300
@@ -151,7 +151,7 @@
             "marca"=>"rolex",
             "modelo"=>"vintage",
             "id_categoria"=>1,
-            "imagensrc"=>"https://via.placeholder.com/100",
+            "imagensrc"=>"img/reloj_14.jpg",
             "descripcion"=>"Material de la correa: metal, resistente al agua",
           
             "precio"=>2000
@@ -162,7 +162,7 @@
             "marca"=>"rolex",
             "modelo"=>"vintage",
             "id_categoria"=>1,
-            "imagensrc"=>"https://via.placeholder.com/100",
+            "imagensrc"=>"img/reloj_15.jpg",
             "descripcion"=>"Material de la correa: metal, resistente al agua",
           
             "precio"=>4000
@@ -173,7 +173,7 @@
             "marca"=>"rolex",
             "modelo"=>"vintage",
             "id_categoria"=>1,
-            "imagensrc"=>"https://via.placeholder.com/100",
+            "imagensrc"=>"img/reloj_16.jpg",
             "descripcion"=>"Material de la correa: metal, resistente al agua",
           
             "precio"=>7000
@@ -184,7 +184,7 @@
             "marca"=>"rolex",
             "modelo"=>"vintage",
             "id_categoria"=>1,
-            "imagensrc"=>"https://via.placeholder.com/100",
+            "imagensrc"=>"img/reloj_17.jpg",
             "descripcion"=>"Material de la correa: metal, resistente al agua",
           
             "precio"=>5000
@@ -195,7 +195,7 @@
             "marca"=>"rolex",
             "modelo"=>"vintage",
             "id_categoria"=>1,
-            "imagensrc"=>"https://via.placeholder.com/100",
+            "imagensrc"=>"img/reloj_18.jpg",
             "descripcion"=>"Material de la correa: metal, resistente al agua",
           
             "precio"=>4000
@@ -206,7 +206,7 @@
             "marca"=>"rolex",
             "modelo"=>"vintage",
             "id_categoria"=>1,
-            "imagensrc"=>"https://via.placeholder.com/100",
+            "imagensrc"=>"img/reloj_19.jpg",
             "descripcion"=>"Material de la correa: metal, resistente al agua",
           
             "precio"=>2000
@@ -217,7 +217,7 @@
             "marca"=>"rolex",
             "modelo"=>"vintage",
             "id_categoria"=>1,
-            "imagensrc"=>"https://via.placeholder.com/100",
+            "imagensrc"=>"img/reloj_20.jpg",
             "descripcion"=>"Material de la correa: metal, resistente al agua",
           
             "precio"=>8000
