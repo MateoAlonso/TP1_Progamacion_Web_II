@@ -19,7 +19,7 @@
       <!-- Logo -->
 
       <a href="../index.php" class="navbar-brand ml-2">
-          <img src="https://via.placeholder.com/40" alt="placeholder logo" width="40" height="40" class="img-fluid rounded-circle">
+          <img src="../img/rolex-40x40.jpeg" alt="placeholder logo" width="40" height="40" class="img-fluid rounded-circle">
       </a>
 
       <!-- Hamburquesa -->
@@ -41,16 +41,24 @@
       </div>
     </nav>
     <h1 class="mt-5">Detalle del producto</h1>
+
     <div clsss="product-block">
-        <img src="https://via.placeholder.com/200" alt="placeholder image" width="100">
+      <img class="img-fluid rounded" src=
+      <?php 
+        require_once("functions.php");
+        $array=LeerArrayJson("../Json","productos.json");
+
+        // El index tendria que llegar desde home, en funcion de el boton de Detalle que se clickea
+        $index=1;
+        
+        echo "../".$array[$index]["imagensrc"]; 
+      ?> 
+      width="100" height="100" alt="placeholder">
     </div>
 
     <div class="product-block mt-2">
       <h3>
         <?php
-          require_once("functions.php");
-          $array=LeerArrayJson("../Json","productos.json");
-          $index=1;
           echo "Reloj: ".$array[$index]["id_producto"];
         ?>
       </h3>

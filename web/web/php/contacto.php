@@ -21,7 +21,7 @@
             <!-- Logo -->
     
             <a href="../index.php" class="navbar-brand ml-2">
-                <img src="https://via.placeholder.com/40" alt="pepsi logo" width="40" height="40" class="img-fluid rounded-circle">
+                <img src="../img/rolex-40x40.jpeg" alt="pepsi logo" width="40" height="40" class="img-fluid rounded-circle">
             </a>
     
             <!-- Hamburquesa -->
