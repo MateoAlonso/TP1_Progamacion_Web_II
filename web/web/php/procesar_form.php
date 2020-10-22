@@ -6,6 +6,7 @@
     [
         "nombre"=>$_GET["nombre"],
         "apellido"=>$_GET["apellido"],
+        "tel"=>$_GET["tel"],
         "correo"=>$_GET["correo"],
         "comentarios"=>$_GET["comentarios"],
         "seccionEmpresa"=>$_GET["seccionEmpresa"],
