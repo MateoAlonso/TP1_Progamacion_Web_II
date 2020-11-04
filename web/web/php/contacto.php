@@ -59,7 +59,7 @@
                     <input id="apellidoid" type="text" name="apellido" class="form-control mb-3" placeholder="Ingrese su apellido" required>
 
                     <label for="telid" class="fuente">Teléfono</label>
-                    <input id="telid" type="number" name="tel" class="form-control mb-3" placeholder="Ingrese su teléfono" required>
+                    <input id="telid" type="tel" name="tel" class="form-control mb-3" placeholder="Ingrese su teléfono" required>
 
 
                     <label for="correoid" class="fuente">Email</label>
