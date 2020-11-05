@@ -9,7 +9,7 @@
             "id_categoria"=>1,
             "imagensrc"=>"img/reloj_1.jpg",
             "descripcion"=>"Material de la correa: oro, resistente al agua",
-          
+
             "precio"=>30000
             
         ],
