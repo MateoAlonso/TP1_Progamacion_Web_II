@@ -7,9 +7,9 @@
             "marca"=>"rolex",
             "modelo"=>"vintage",
             "id_categoria"=>1,
-            "imagensrc"=>"img/reloj_1.jpg",
+            "imagengrande"=>"img/img_grandes/reloj_1.jpg",
             "descripcion"=>"Material de la correa: oro, resistente al agua",
-
+            "imagenchica"=>"img/img_chicas/reloj_1.jpg",
             "precio"=>30000
             
         ],
@@ -19,9 +19,9 @@
             "marca"=>"rolex",
             "modelo"=>"vintage",
             "id_categoria"=>1,
-            "imagensrc"=>"img/reloj_2.jpg",
+            "imagengrande"=>"img/img_grandes/reloj_2.jpg",
             "descripcion"=>"Material de la correa: metal, resistente al agua",
-          
+            "imagenchica"=>"img/img_chicas/reloj_2.jpg",
             "precio"=>15000
         ],
         3=>[
@@ -30,9 +30,9 @@
             "marca"=>"rolex",
             "modelo"=>"vintage",
             "id_categoria"=>1,
-            "imagensrc"=>"img/reloj_3.jpg",
+            "imagengrande"=>"img/img_grandes/reloj_3.jpg",
             "descripcion"=>"Material de la correa: metal, resistente al agua",
-          
+            "imagenchica"=>"img/img_chicas/reloj_3.jpg",
             "precio"=>14000
         ],
         4=>[
@@ -41,9 +41,9 @@
             "marca"=>"rolex",
             "modelo"=>"vintage",
             "id_categoria"=>1,
-            "imagensrc"=>"img/reloj_4.jpg",
+            "imagengrande"=>"img/img_grandes/reloj_4.jpg",
             "descripcion"=>"Material de la correa: metal platino, resistente al agua",
-          
+            "imagenchica"=>"img/img_chicas/reloj_4.jpg",
             "precio"=>5000
         ],
         5=>[
@@ -52,9 +52,9 @@
             "marca"=>"rolex",
             "modelo"=>"vintage",
             "id_categoria"=>1,
-            "imagensrc"=>"img/reloj_5.jpg",
+            "imagengrande"=>"img/img_grandes/reloj_5.jpg",
             "descripcion"=>"Material de la correa: metal carbonico, resistente al agua",
-          
+            "imagenchica"=>"img/img_chicas/reloj_5.jpg",
             "precio"=>32000
         ],
         6=>[
@@ -63,9 +63,9 @@
             "marca"=>"rolex",
             "modelo"=>"vintage",
             "id_categoria"=>1,
-            "imagensrc"=>"img/reloj_6.jpg",
+            "imagengrande"=>"img/img_grandes/reloj_6.jpg",
             "descripcion"=>"Material de la correa: cristal, resistente al agua",
-          
+            "imagenchica"=>"img/img_chicas/reloj_6.jpg",
             "precio"=>3000
         ],
         7=>[
@@ -74,9 +74,9 @@
             "marca"=>"rolex",
             "modelo"=>"vintage",
             "id_categoria"=>1,
-            "imagensrc"=>"img/reloj_7.jpg",
+            "imagengrande"=>"img/img_grandes/reloj_7.jpg",
             "descripcion"=>"Material de la correa: metal, resistente al agua",
-          
+            "imagenchica"=>"img/img_chicas/reloj_7.jpg",
             "precio"=>4000
         ],
         8=>[
@@ -85,9 +85,9 @@
             "marca"=>"rolex",
             "modelo"=>"vintage",
             "id_categoria"=>1,
-            "imagensrc"=>"img/reloj_8.jpg",
+            "imagengrande"=>"img/img_grandes/reloj_8.jpg",
             "descripcion"=>"Material de la correa: rubi, resistente al agua",
-          
+            "imagenchica"=>"img/img_chicas/reloj_8.jpg",
             "precio"=>3000
         ],
         9=>[
@@ -96,9 +96,9 @@
             "marca"=>"rolex",
             "modelo"=>"vintage",
             "id_categoria"=>1,
-            "imagensrc"=>"img/reloj_9.jpg",
+            "imagengrande"=>"img/img_grandes/reloj_9.jpg",
             "descripcion"=>"Material de la correa: metal, resistente al agua",
-          
+            "imagenchica"=>"img/img_chicas/reloj_9.jpg",
             "precio"=>12000
         ],
         10=>[
@@ -107,9 +107,9 @@
             "marca"=>"rolex",
             "modelo"=>"vintage",
             "id_categoria"=>1,
-            "imagensrc"=>"img/reloj_10.jpg",
+            "imagengrande"=>"img/img_grandes/reloj_10.jpg",
             "descripcion"=>"Material de la correa: metal, resistente al agua",
-          
+            "imagenchica"=>"img/img_chicas/reloj_10.jpg",
             "precio"=>110000
         ],
         11=>[
@@ -118,9 +118,9 @@
             "marca"=>"rolex",
             "modelo"=>"vintage",
             "id_categoria"=>1,
-            "imagensrc"=>"img/reloj_11.jpg",
+            "imagengrande"=>"img/img_grandes/reloj_11.jpg",
             "descripcion"=>"Material de la correa: metal, resistente al agua",
-          
+            "imagenchica"=>"img/img_chicas/reloj_11.jpg",
             "precio"=>2000
         ],
         12=>[
@@ -129,9 +129,9 @@
             "marca"=>"rolex",
             "modelo"=>"vintage",
             "id_categoria"=>1,
-            "imagensrc"=>"img/reloj_12.jpg",
+            "imagengrande"=>"img/img_grandes/reloj_12.jpg",
             "descripcion"=>"Material de la correa: metal, resistente al agua",
-          
+            "imagenchica"=>"img/img_chicas/reloj_12.jpg",
             "precio"=>14000
         ],
         13=>[
@@ -140,9 +140,9 @@
             "marca"=>"rolex",
             "modelo"=>"vintage",
             "id_categoria"=>1,
-            "imagensrc"=>"img/reloj_13.jpg",
+            "imagengrande"=>"img/img_grandes/reloj_13.jpg",
             "descripcion"=>"Material de la correa: metal, resistente al agua",
-          
+            "imagenchica"=>"img/img_chicas/reloj_13.jpg",
             "precio"=>3300
         ],
         14=>[
@@ -151,9 +151,9 @@
             "marca"=>"rolex",
             "modelo"=>"vintage",
             "id_categoria"=>1,
-            "imagensrc"=>"img/reloj_14.jpg",
+            "imagengrande"=>"img/img_grandes/reloj_14.jpg",
             "descripcion"=>"Material de la correa: metal, resistente al agua",
-          
+            "imagenchica"=>"img/img_chicas/reloj_14.jpg",
             "precio"=>2000
         ],
         15=>[
@@ -162,9 +162,9 @@
             "marca"=>"rolex",
             "modelo"=>"vintage",
             "id_categoria"=>1,
-            "imagensrc"=>"img/reloj_15.jpg",
+            "imagengrande"=>"img/img_grandes/reloj_15.jpg",
             "descripcion"=>"Material de la correa: metal, resistente al agua",
-          
+            "imagenchica"=>"img/img_chicas/reloj_15.jpg",
             "precio"=>4000
         ],
         16=>[
@@ -173,9 +173,9 @@
             "marca"=>"rolex",
             "modelo"=>"vintage",
             "id_categoria"=>1,
-            "imagensrc"=>"img/reloj_16.jpg",
+            "imagengrande"=>"img/img_grandes/reloj_16.jpg",
             "descripcion"=>"Material de la correa: metal, resistente al agua",
-          
+            "imagenchica"=>"img/img_chicas/reloj_16.jpg",
             "precio"=>7000
         ],
         17=>[
@@ -184,9 +184,9 @@
             "marca"=>"rolex",
             "modelo"=>"vintage",
             "id_categoria"=>1,
-            "imagensrc"=>"img/reloj_17.jpg",
+            "imagengrande"=>"img/img_grandes/reloj_17.jpg",
             "descripcion"=>"Material de la correa: metal, resistente al agua",
-          
+            "imagenchica"=>"img/img_chicas/reloj_17.jpg",
             "precio"=>5000
         ],
         18=>[
@@ -195,9 +195,9 @@
             "marca"=>"rolex",
             "modelo"=>"vintage",
             "id_categoria"=>1,
-            "imagensrc"=>"img/reloj_18.jpg",
+            "imagengrande"=>"img/img_grandes/reloj_18.jpg",
             "descripcion"=>"Material de la correa: metal, resistente al agua",
-          
+            "imagenchica"=>"img/img_chicas/reloj_18.jpg",
             "precio"=>4000
         ],
         19=>[
@@ -206,9 +206,9 @@
             "marca"=>"rolex",
             "modelo"=>"vintage",
             "id_categoria"=>1,
-            "imagensrc"=>"img/reloj_19.jpg",
+            "imagengrande"=>"img/img_grandes/reloj_19.jpg",
             "descripcion"=>"Material de la correa: metal, resistente al agua",
-          
+            "imagenchica"=>"img/img_chicas/reloj_19.jpg",
             "precio"=>2000
         ],
         20=>[
@@ -217,9 +217,9 @@
             "marca"=>"rolex",
             "modelo"=>"vintage",
             "id_categoria"=>1,
-            "imagensrc"=>"img/reloj_20.jpg",
+            "imagengrande"=>"img/img_grandes/reloj_20.jpg",
             "descripcion"=>"Material de la correa: metal, resistente al agua",
-          
+            "imagenchica"=>"img/img_chicas/reloj_20.jpg",
             "precio"=>8000
         ]
     );

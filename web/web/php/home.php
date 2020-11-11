@@ -29,7 +29,7 @@
                     echo $array[$i]["nombre"];
                     
                     echo "</h3>";
-                    echo "<img class='img-fluid rounded' src='".$array[$i]["imagensrc"]."' width='100' height='100' alt='placeholder'>";
+                    echo "<img class='img-fluid rounded' src='".$array[$i]["imagenchica"]."' width='100' height='100' alt='placeholder'>";
                     echo "<h3 class='h4 text-center text-light mt-3'>";
                     
                     echo "Precio: $" . $array[$i]["precio"];

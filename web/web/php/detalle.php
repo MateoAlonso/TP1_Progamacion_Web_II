@@ -25,8 +25,8 @@
                                           require_once("functions.php");
                                           $array = LeerArrayJson("Json", "productos.json");
                                           
-                                          echo $array[$index]["imagensrc"];
-                                          ?> width="100" height="100" alt="placeholder">
+                                          echo $array[$index]["imagengrande"];
+                                          ?> width="600" height="800" alt="placeholder">
     </div>
     
     <div class="product-block mt-2 mx-3">
