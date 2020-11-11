@@ -13,6 +13,7 @@ switch ($pagina) {
     break;
     case 'detalles':
         require_once("php/detalle.php");
+        catchProducto($_GET["producto"]);
     break;
     case 'contacto':
         require_once("php/contacto.php");

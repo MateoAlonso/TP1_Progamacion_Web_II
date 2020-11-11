@@ -18,7 +18,7 @@
             
             <?php
                 $array = LeerArrayJson("Json", "productos.json");
-                for ($i=1; $i <= count($array); $i++) { 
+                for ($i=1; $i <= count($array); $i++) {
                     
                     // Etiqueta producto
                     
@@ -41,7 +41,7 @@
                     
                     echo "</h3>";
                     
-                    echo "<a href='index.php?pagina=detalles'&producto=".$i."class='h5 btn btn-primary'>Detalles</a>";
+                    echo "<a href='index.php?pagina=detalles&producto=".$i."'class='h5 btn btn-primary'>Detalles</a>";
                     
                     echo "</div>";
                 }
