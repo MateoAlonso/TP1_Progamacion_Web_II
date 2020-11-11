@@ -14,21 +14,17 @@
 <body id="fp" class="margenftfb fpi barrahorizontalno">
   <div class="container-fluid">
 
-    <?php
-    // En header hay que arreglar los links para cuando estoy parado dentro de carpeta php y no en index
-    require_once("header.php");
-    ?>
 
 
     <div clsss="product-block">
       <img class="img-fluid rounded" src=<?php
                                           require_once("functions.php");
-                                          $array = LeerArrayJson("../Json", "productos.json");
+                                          $array = LeerArrayJson("Json", "productos.json");
 
                                           // El index tendria que llegar desde home, en funcion de el boton de Detalle que se clickea
                                           $index = 1;
 
-                                          echo "../" . $array[$index]["imagensrc"];
+                                          echo "" . $array[$index]["imagensrc"];
                                           ?> width="100" height="100" alt="placeholder">
     </div>
 
@@ -96,9 +92,6 @@
       <button type="submit" class="btn btn-primary mb-2">Enviar</button>
     </form>
 
-    <?php
-    require_once("footer.php");
-    ?>
   </div>
 
 

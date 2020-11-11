@@ -24,7 +24,7 @@
 
             <!-- Logo -->
 
-            <a href="index.php" class="navbar-brand ml-2">
+            <a href="index.php?pagina=inicio" class="navbar-brand ml-2">
                 <img src="img/rolex-40x40.jpeg" alt="placeholder logo" width="40" height="40" class="img-fluid rounded-circle">
             </a>
 
@@ -38,10 +38,16 @@
             <div class="collapse navbar-collapse" id="hamb">
                 <ul class="navbar-nav ml-auto mr-2">
                     <li class="nav-item">
-                        <a href="index.php" class="nav-link active">Inicio</a>
+                        <a href="index.php?pagina=inicio" class="nav-link <?php 
+                        if ($_GET["pagina"]=="inicio"||!isset($_GET["pagina"])) {
+                            echo "active";
+                        }?>">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a href="php/contacto.php" class="nav-link">Contacto</a>
+                        <a href="index.php?pagina=contacto" class="nav-link <?php
+                        if ($_GET["pagina"]=="contacto") {
+                            echo "active";
+                        }?>">Contacto</a>
                     </li>
                 </ul>
             </div>
