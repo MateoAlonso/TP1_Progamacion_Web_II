@@ -16,5 +16,6 @@
 
 
     GrabarArrayJson("../Json","formulario.json",$form);
-    require_once("contacto.php");
+    header("Location: ../index.php?pagina=contacto");
+    exit();
 ?>

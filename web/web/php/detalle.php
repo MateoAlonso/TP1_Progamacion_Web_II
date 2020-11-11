@@ -12,16 +12,16 @@
 </head>
 
 <body id="fp" class="margenftfb fpi barrahorizontalno">
-  <div class="container-fluid">
-
-  <?php
-    function catchProducto($index){
-
-  ?>
+  <div class="container-fluid mt-5">
+    
+    
+    <?php
+      function catchProducto($index){
+    ?>
 
 
     <div clsss="product-block">
-      <img class="img-fluid rounded" src=<?php
+      <img class="img-fluid rounded mx-3 mt-5" src=<?php
                                           require_once("functions.php");
                                           $array = LeerArrayJson("Json", "productos.json");
                                           
@@ -29,7 +29,7 @@
                                           ?> width="100" height="100" alt="placeholder">
     </div>
     
-    <div class="product-block mt-2">
+    <div class="product-block mt-2 mx-3">
       <h3>
         <?php
         echo "Reloj: " . $array[$index]["id_producto"];
@@ -63,12 +63,12 @@
       </div>
     </div>
     
-    <form action="procesar_coment.php" method="$_GET" enctype="multipart/form-data">
-    <div class="form-group">
-      <label for="exampleFormControlInput1">Email</label>
-      <input type="email" name="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-    </div>
-    <div class="form-group">
+    <form action="php/procesar_coment.php" method="$_GET" enctype="multipart/form-data">
+      <div class="form-group mx-3">
+        <label for="exampleFormControlInput1">Email</label>
+        <input type="email" name="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+      </div>
+      <div class="form-group mx-3">
         <label for="exampleFormControlSelect1">Puntuación</label>
         <select name="score" class="form-control" id="exampleFormControlSelect1">
           <option>1</option>
@@ -86,17 +86,18 @@
       
       </div>
 
-      <?php
-    }
-      ?>
       
-      <div class="form-group">
+      <div class="form-group mx-3">
         <label for="exampleFormControlTextarea1">Comentarios</label>
         <textarea name="comentario" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
       </div>
-      <button type="submit" class="btn btn-primary mb-2">Enviar</button>
+      <button type="submit" class="btn btn-primary mb-2 mx-3">Enviar</button>
     </form>
     
+    <?php
+    }
+    ?>
+
   </div>
   
 

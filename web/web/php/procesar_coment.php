@@ -13,5 +13,6 @@
 
 
     GrabarArrayJson("../Json","comentarios.json",$form);
-    require_once("detalle.php");
+    header("Location: ../index.php?pagina=detalles&producto=$_GET[id_producto]");
+    exit();
 ?>

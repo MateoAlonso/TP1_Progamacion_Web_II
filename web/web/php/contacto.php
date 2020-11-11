@@ -21,7 +21,7 @@
   
   <h2 class="text-center text-light fuenteb mt-5">Formulario de contacto</h2>
   <div id="fp" class="container fc fpc">
-    <form class="mt-3" action="../php/procesar_form.php" method="get" enctype="multipart/form-data">
+    <form class="mt-3" action="php/procesar_form.php" method="get" enctype="multipart/form-data">
       <fieldset>
 
 
@@ -33,7 +33,7 @@
         <input id="apellidoid" type="text" name="apellido" class="form-control mb-3" placeholder="Ingrese su apellido" required>
 
         <label for="telid" class="fuente">Teléfono</label>
-        <input id="telid" type="tel" name="tel" class="form-control mb-3" placeholder="Ingrese su teléfono" required>
+        <input id="telid" type="number" max="20" name="tel" class="form-control mb-3" placeholder="Ingrese su teléfono" required>
 
 
         <label for="correoid" class="fuente">Email</label>
