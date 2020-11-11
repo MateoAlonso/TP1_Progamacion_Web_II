@@ -5,7 +5,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Trabajo WEB II</title>
+    <title>
+        <?php
+        switch ($_GET["pagina"]) {
+            case 'inicio':
+                echo "Inicio";
+                break;
+            
+            case 'detalles':
+                echo "Detalles de producto";
+                break;
+            
+            case 'contacto':
+                echo "Contacto";
+                break;
+            
+            default:
+                # code...
+                break;
+        } 
+        ?>
+    </title>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
@@ -16,7 +36,6 @@
 
 
 
-        <!-- H1 tiene que variar con la pág que se clickea, está oculto -->
 
         <h1 class="d-none">Trabajo WEB II</h1>
 
