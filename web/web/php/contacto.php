@@ -14,35 +14,7 @@
 <body class="fondo margenftfb">
   <div class="container-fluid">
 
-    <!-- H1 oculto -->
-
-
-    <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
-
-      <!-- Logo -->
-
-      <a href="../index.php" class="navbar-brand ml-2">
-        <img src="../img/rolex-40x40.jpeg" alt="pepsi logo" width="40" height="40" class="img-fluid rounded-circle">
-      </a>
-
-      <!-- Hamburquesa -->
-
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#hamb">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <!-- Links -->
-      <div class="collapse navbar-collapse" id="hamb">
-        <ul class="navbar-nav ml-auto mr-2">
-          <li class="nav-item">
-            <a href="../index.php" class="nav-link">Inicio</a>
-          </li>
-          <li class="nav-item">
-            <a href="contacto.php" class="nav-link active">Contacto</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+  <?php require_once("header.php");?>
 
     <!-- Formulario -->
 
@@ -103,15 +75,8 @@
         </fieldset>
       </form>
     </div>
-    <!-- Footer  -->
-
-    <section class="containter-fluid bg-dark fixed-bottom">
-      <div class="row">
-        <div class="card-footer text-muted col-12">
-          <h4 class="h6 text-center mt-1 ml-3">Alonso, Mateo | Emanuel Vizcarra | Grupo 4 | Programación Web II | 2do Cuatrimestre 2020</h4>
-        </div>
-      </div>
-    </section>
+    
+   <?php require_once("footer.php");?>
 
     <script src="../js/jquery-3.4.1.min.js"></script>
     <script src="../js/bootstrap.bundle.min.js"></script>
