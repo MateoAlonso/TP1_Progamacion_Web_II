@@ -89,11 +89,30 @@
       
       <div class="form-group mx-3">
         <label for="exampleFormControlTextarea1">Comentarios</label>
-        <textarea name="comentario" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        <textarea name="comentario" class="form-control" id="exampleFormControlTextarea1" rows="3" maxlength="200"></textarea>
       </div>
       <button type="submit" class="btn btn-primary mb-2 mx-3">Enviar</button>
     </form>
     
+    <h3 class="mx-3 mt-2">Comentarios anteriores: </h3>
+    <ul class="list-group list-group-flush mx-3">
+      <li class="list-group-item">
+        <?php
+          
+        ?>
+      </li>
+      <li class="list-group-item">
+        <?php
+      
+        ?>
+      </li>
+      <li class="list-group-item">
+        <?php
+      
+        ?>
+      </li>
+    </ul>
+
     <?php
     }
     ?>
