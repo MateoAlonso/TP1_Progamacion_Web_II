@@ -11,6 +11,54 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 </head>
 
+<?php
+
+
+$array_categorias = json_decode(file_get_contents('Json/categorias.json'),true);
+$array_productos= json_decode(file_get_contents('Json/productos.json'),true);
+
+if(isset($_GET['id_categoria']))
+  $id_cat = $_GET['id_categoria'];
+else
+  $id_cat = '';
+
+if(isset($_GET['a_cat']))
+    $a_cat = $_GET['a_cat'];
+    else
+    $a_cat = '';
+
+echo 'Categoria:'.$id_cat;
+echo '<br>';
+echo '<br>';
+echo '<br>';
+
+foreach($array_productos as $producto){
+
+if ($producto['id_categoria'] == $id_cat){
+
+echo '<pre>';
+echo print_r($producto);
+echo '</pre';
+
+}
+}
+?>
+<form method="get">
+<?php
+foreach($array_categorias as $categorias){
+$cat_nomb = $categorias['nombre'];
+$cat_id = $categorias['id_categoria'];
+$chequeado = in_array($cat_id,$array_categorias) ? 'checked="cheked"':'' ;
+echo '<input type="checkbox"  name="a_cat[]" value="'.$cat_id.'"'.$chequeado.' > '. $cat_nomb;
+
+echo '<br>';
+}
+?>
+<input type="submit">
+</form>
+
+
+
 <body id="fp" class="margenftfb fpi barrahorizontalno mt-4">
     <br>
     <div class="container-fluid mt-5">

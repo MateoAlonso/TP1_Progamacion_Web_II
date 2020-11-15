@@ -71,11 +71,11 @@
       <div class="form-group mx-3">
         <label for="exampleFormControlSelect1">Puntuación</label>
         <select name="score" class="form-control" id="exampleFormControlSelect1">
-          <option>1</option>
-          <option>2</option>
-          <option>3</option>
-          <option>4</option>
-          <option>5</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
         </select>
       </div>
       
@@ -98,17 +98,17 @@
     <ul class="list-group list-group-flush mx-3">
       <li class="list-group-item">
         <?php
-          
+
         ?>
       </li>
       <li class="list-group-item">
         <?php
-      
+
         ?>
       </li>
       <li class="list-group-item">
         <?php
-      
+ 
         ?>
       </li>
     </ul>
@@ -118,7 +118,7 @@
     ?>
 
   </div>
-  
+ 
 
   <script src="js/jquery-3.4.1.min.js"></script>
   <script src="js/bootstrap.bundle.min.js"></script>
@@ -126,3 +126,4 @@
 </body>
 
 </html>
+
