@@ -23,37 +23,38 @@
     <div clsss="product-block">
       <img class="img-fluid rounded mx-3 mt-5" src=<?php
                                           require_once("functions.php");
-                                          $array = LeerArrayJson("Json", "productos.json");
+                                          $arrayProductos = LeerArrayJson("Json", "productos.json");
+                                          $arrayComentarios = LeerArrayJson("Json", "comentarios.json");
                                           
-                                          echo $array[$index]["imagengrande"];
+                                          echo $arrayProductos[$index]["imagengrande"];
                                           ?> width="600" height="800" alt="placeholder">
     </div>
     
     <div class="product-block mt-2 mx-3">
       <h3>
         <?php
-        echo "Reloj: " . $array[$index]["id_producto"];
+        echo "Reloj: " . $arrayProductos[$index]["id_producto"];
         ?>
       </h3>
       <div class="product-info">
         <p>
           <?php
-          echo $array[$index]["nombre"];
+          echo $arrayProductos[$index]["nombre"];
           ?>
         </p>
         <p>
           <?php
-          echo "Precio: $" . $array[$index]["precio"];
+          echo "Precio: $" . $arrayProductos[$index]["precio"];
           ?>
         </p>
         <p>
           <?php
-          echo $array[$index]["descripcion"];
+          echo $arrayProductos[$index]["descripcion"];
           ?>
         </p>
         <p>
           <?php
-          echo "Marca : " . $array[$index]["marca"];
+          echo "Marca : " . $arrayProductos[$index]["marca"];
           ?>
         </p>
         <p>
@@ -82,10 +83,10 @@
 
       <!-- Esto esta oculto, es para ponerle id_producto al comentario -->
       <div class="form-group d-none">
-        <input type="text" name="id_producto" value=<?php echo $array[$index]["id_producto"]; ?> readonly>
-      
+        <input type="text" name="id_producto" value=<?php echo $arrayProductos[$index]["id_producto"]; ?> readonly>
       </div>
-
+      
+     
       
       <div class="form-group mx-3">
         <label for="exampleFormControlTextarea1">Comentarios</label>
@@ -98,17 +99,33 @@
     <ul class="list-group list-group-flush mx-3">
       <li class="list-group-item">
         <?php
-
+          $arrayComentariosProducto= array();
+            foreach ($arrayComentarios as $comentarios => $comentario) {
+              if (  $arrayProductos[$index]["id_producto"] == $comentario["id_producto"]) {
+                array_push($arrayComentariosProducto, $comentario["comentario"]);
+              }
+            }
+          if(null!==end($arrayComentariosProducto)){
+            echo end($arrayComentariosProducto);
+            array_pop($arrayComentariosProducto);
+          }
         ?>
       </li>
       <li class="list-group-item">
         <?php
-
+          if(null!==end($arrayComentariosProducto)){
+            echo end($arrayComentariosProducto);
+            array_pop($arrayComentariosProducto);
+          }
         ?>
       </li>
       <li class="list-group-item">
         <?php
- 
+          if(null!==end($arrayComentariosProducto)){
+            echo end($arrayComentariosProducto);
+            array_pop($arrayComentariosProducto);
+          }
+          unset($arrayComentariosProducto);
         ?>
       </li>
     </ul>

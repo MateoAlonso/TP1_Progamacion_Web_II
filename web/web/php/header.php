@@ -7,23 +7,32 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>
         <?php
-        switch ($_GET["pagina"]) {
-            case 'inicio':
-                echo "Inicio";
-                break;
-            
-            case 'detalles':
-                echo "Detalles de producto";
-                break;
-            
-            case 'contacto':
-                echo "Contacto";
-                break;
-            
-            default:
-                # code...
-                break;
-        } 
+
+        if (isset($_GET["pagina"])) {
+            switch ($_GET["pagina"]) {
+                case 'inicio':
+                    echo "Inicio";
+                    break;
+                
+                case 'detalles':
+                    echo "Detalles de producto";
+                    break;
+                
+                case 'contacto':
+                    echo "Contacto";
+                    break;
+                
+                case null:
+                    echo "Inicio";
+                    break;
+    
+                default:
+                    # code...
+                    break;
+            } 
+        } else {
+            echo "Inicio";
+        }
         ?>
     </title>
     <link rel="stylesheet" href="css/bootstrap.css">
