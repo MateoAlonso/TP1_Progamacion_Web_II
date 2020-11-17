@@ -3,23 +3,23 @@
     $array_categoria=array(
         1=>[
             "id_categoria"=>1,
-            "nombre"=>"oro"
+            "nombre"=>"Oro"
         ],
         2=>[
             "id_categoria"=>2,
-            "nombre"=>"plata"
+            "nombre"=>"Plata"
         ],
         3=>[
             "id_categoria"=>3,
-            "nombre"=>"platino"
+            "nombre"=>"Platino"
         ],
         4=>[
             "id_categoria"=>4,
-            "nombre"=>"deportivo"
+            "nombre"=>"Deportivo"
         ],
         5=>[
             "id_categoria"=>5,
-            "nombre"=>"cromado"
+            "nombre"=>"Cromado"
         ]
     );
     GrabarArrayJson("Json","categorias.json",$array_categoria);
