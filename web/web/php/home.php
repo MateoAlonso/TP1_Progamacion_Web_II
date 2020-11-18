@@ -20,20 +20,38 @@
 
         <div class="container-fluid mt-5">
 
-            <form action="php/procesar_filtrado.php" method="$_GET" enctype="multipart/form-data">
-                <div class="form-group mx-3">
-                    <label for="exampleFormControlSelect1">Categorías</label>
-                    <select name="id_categoria" class="form-control" id="exampleFormControlSelect1">
-                        <?php
-                            $arrayProductos = LeerArrayJson("Json", "productos.json");
-                            $arrayCategorias = LeerArrayJson("Json", "categorias.json");
-                            echo "<option value = ''>"."Todos"."</option>";
-                            foreach ($arrayCategorias as $categorias => $categoria) {
-                                echo "<option value = '$categoria[id_categoria]'>$categoria[nombre]</option>";
-                            }
-                        ?>
-                    </select>
+            <form class="ml-3" action="php/procesar_filtrado.php" method="$_GET" enctype="multipart/form-data">
+            <?php
+                // Trae los productos y categorías en un array
+                $arrayProductos = LeerArrayJson("Json", "productos.json");
+                $arrayCategorias = LeerArrayJson("Json", "categorias.json");
+
+                // Muestra que categoría estamos filtrando
+                echo "<div><h3>Categorías: ";
+                foreach ($arrayCategorias as $categorias => $categoria) {
+                    if (!isset($_GET["id_categoria"])) {
+                        $_GET["id_categoria"] = "";
+                    }
+                    if ($categoria["id_categoria"]==$_GET["id_categoria"]) {
+                        echo $categoria["nombre"];
+                    }
+                }
+                echo "</h3></div>";
+            ?>
+            
+            <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="id_categoria" id="inlineRadio0" value="">
+                    <label class="form-check-label" for="inlineRadio0">Todos</label>
                 </div>
+                <?php
+                    // Crea los radios
+                    foreach ($arrayCategorias as $categorias => $categoria) {
+                        echo "<div class='form-check form-check-inline'>";
+                        echo  "<input class='form-check-input'"."type='radio'"."name='id_categoria'"."id='inlineRadio$categoria[id_categoria]'"."value= '$categoria[id_categoria]'>";
+                        echo "<label class='form-check-label'"."for='inlineRadio$categoria[id_categoria]'>".$categoria['nombre']."</label>";
+                        echo "</div>";
+                    }
+                ?>
                 <button type="submit" class="btn btn-primary mb-2 mx-3">Filtrar</button>    
             </form>
 
@@ -42,7 +60,7 @@
                 <?php
                     for ($i=1; $i <= count($arrayProductos); $i++) {
                         
-                        // Etiqueta producto
+                        // Etiqueta producto, los if checkean el filtrado
                         if (!isset($_GET["id_categoria"])) {
                             $_GET["id_categoria"] = "";
                         }

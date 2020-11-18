@@ -14,7 +14,7 @@
 <body id="fp" class="margenftfb fpi barrahorizontalno">
   <div class="container-fluid mt-5">
     
-    
+    <!-- Mustra el producto con el index que llega -->
     <?php
       function catchProducto($index){
     ?>
@@ -94,7 +94,8 @@
       </div>
       <button type="submit" class="btn btn-primary mb-2 mx-3">Enviar</button>
     </form>
-    
+
+    <!-- Comentarios anteriores, crea un array temporal donde guarda los últimos 3 comentarios y mustra el comentario del final del array y lo borra, 3 veces -->
     <h3 class="mx-3 mt-2">Comentarios anteriores: </h3>
     <ul class="list-group list-group-flush mx-3">
       <li class="list-group-item">
