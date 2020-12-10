@@ -8,6 +8,7 @@
         "score"=>$_GET["score"],
         "id_producto"=>$_GET["id_producto"],
         "comentario"=>$_GET["comentario"],
+        "nomape" =>$_GET["nomape"]
     ];
 
 

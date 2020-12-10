@@ -67,7 +67,11 @@
     <form action="php/procesar_coment.php" method="$_GET" enctype="multipart/form-data">
       <div class="form-group mx-3">
         <label for="exampleFormControlInput1">Email</label>
-        <input type="email" name="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        <input type="email" name="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" required>
+      </div>
+      <div class="form-group mx-3">
+        <label for="exampleFormControlInput2">Nombre y apellido</label>
+        <input type="text" name="nomape" class="form-control" id="exampleFormControlInput2" placeholder="Nombre y apellido">
       </div>
       <div class="form-group mx-3">
         <label for="exampleFormControlSelect1">Puntuación</label>
@@ -101,30 +105,64 @@
       <li class="list-group-item">
         <?php
           $arrayComentariosProducto= array();
+          $arrayMailComentario= array();
+          $arrayScore= array();
             foreach ($arrayComentarios as $comentarios => $comentario) {
               if (  $arrayProductos[$index]["id_producto"] == $comentario["id_producto"]) {
                 array_push($arrayComentariosProducto, $comentario["comentario"]);
+                array_push($arrayMailComentario, $comentario["email"]);
+                array_push($arrayScore, $comentario["score"]);
               }
             }
+          if(null!==end($arrayMailComentario)){
+            echo "Usuario: ".end($arrayMailComentario);
+            array_pop($arrayMailComentario);
+            echo "<br>";
+          }
           if(null!==end($arrayComentariosProducto)){
-            echo end($arrayComentariosProducto);
+            echo "Comentario: ".end($arrayComentariosProducto);
             array_pop($arrayComentariosProducto);
+            echo "<br>";
+          }
+          if(null!==end($arrayScore)){
+            echo "Puntuación: ".end($arrayScore);
+            array_pop($arrayScore);
           }
         ?>
       </li>
       <li class="list-group-item">
         <?php
+          if(null!==end($arrayMailComentario)){
+            echo "Usuario: ".end($arrayMailComentario);
+            array_pop($arrayMailComentario);
+            echo "<br>";
+          }
           if(null!==end($arrayComentariosProducto)){
-            echo end($arrayComentariosProducto);
+            echo "Comentario: ".end($arrayComentariosProducto);
             array_pop($arrayComentariosProducto);
+            echo "<br>";
+          }
+          if(null!==end($arrayScore)){
+            echo "Puntuación: ".end($arrayScore);
+            array_pop($arrayScore);
           }
         ?>
       </li>
       <li class="list-group-item">
         <?php
+          if(null!==end($arrayMailComentario)){
+            echo "Usuario: ".end($arrayMailComentario);
+            array_pop($arrayMailComentario);
+            echo "<br>";
+          }
           if(null!==end($arrayComentariosProducto)){
-            echo end($arrayComentariosProducto);
+            echo "Comentario: ".end($arrayComentariosProducto);
             array_pop($arrayComentariosProducto);
+            echo "<br>";
+          }
+          if(null!==end($arrayScore)){
+            echo "Puntuación: ".end($arrayScore);
+            array_pop($arrayScore);
           }
           unset($arrayComentariosProducto);
         ?>
